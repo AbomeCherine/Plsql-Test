@@ -7,7 +7,7 @@ It tracks books, authors, members, and borrowing records.
 --------------------------------
 ## SQL Commands Executed:
 --------------------------------
-
+-- These lines will create new tables to our database
 - Creation of tables using DDL.
 -- Create Authors Table
 CREATE TABLE Authors (
@@ -44,7 +44,7 @@ CREATE TABLE BorrowingRecords (
 - Insertion, updating, and deletion of data using DML.
 --------------------------------------------------------
 
-NOTE: Information had to be inserted individually
+NOTE: Records have to be inserted individually
 -- Insert data into Authors table
 INSERT INTO Authors (AuthorID, AuthorName)
 VALUES (1, 'J.K. Rowling'), (2, 'George Orwell');
